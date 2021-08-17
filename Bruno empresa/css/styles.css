@@ -402,15 +402,42 @@ color: var(--gris);
 
 @media only screen and (max-width:773px){
     .servicios-grid .servicios-img img{width: 80%; margin-bottom: 30px;}
-}
+
 .servicios-grid{
     display: grid;
-    grid-template-columns: 500px;
+    align-items: center;
+    grid-template-columns: 380px;
     grid-template-rows: repeat(8, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    }
+    text-align: center;
+   align-content: center;
+   
 
+    }
+    .servicios-texts h2{
+    margin-right: 10px;
+    text-align: center;
+
+    }
+    .servicios-texts p{
+
+        text-align: center;
+        margin: center;
+        justify-content: center;
+    align-items: center;
+    margin-left:  30px
+    
+    }
+    .servicios-img{
+
+
+    }
+.servicios-img--left{
+
+    
+}
+}
 
 @media only screen and (max-width:773px){
     .servicios-grid .servicios-img--left img{width: 80%; margin-bottom: 30px;}
