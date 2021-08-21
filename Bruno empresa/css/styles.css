@@ -350,7 +350,7 @@ max-width: 1200px;
 position: relative;
 display: grid;
 grid-template-columns: 1fr 1fr;
-grid-template-rows: repeat(4, 1fr);
+grid-template-rows: repeat(2, 1fr);
 grid-column-gap: 20px;
 grid-row-gap: 50px;
 
@@ -404,17 +404,16 @@ color: var(--gris);
     .servicios-grid .servicios-img img{width: 80%; margin-bottom: 30px;}
 
 .servicios-grid{
-    display: grid;
+    display: inline-block;
     align-items: center;
     grid-template-columns: 380px;
     grid-template-rows: repeat(8, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     text-align: center;
-   align-content: center;
-   
-
+    align-content: center;
     }
+    
     .servicios-texts h2{
     margin-right: 10px;
     text-align: center;
